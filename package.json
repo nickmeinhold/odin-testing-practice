@@ -1,0 +1,17 @@
+{
+  "name": "testing-practice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": []
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
